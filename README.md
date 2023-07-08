@@ -1,7 +1,7 @@
 # Static-Python-Assignments
 # jubilant-octo-dollop 
 
-# Vishhal Narkar Python Assignments
+# Vishhal Narkar
 
 Day 1 assignment uploaded. 
 
