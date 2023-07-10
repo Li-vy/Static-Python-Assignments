@@ -8,7 +8,7 @@ Day 2 assignment uploaded.
 
 Day 3 assignment uploaded.
 
-Day 4 assignment upload pending.
+Day 4 assignment uploaded.
 
 Day 5 assignment upload pending.
 
