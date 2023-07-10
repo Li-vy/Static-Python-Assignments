@@ -14,4 +14,7 @@ for i in range(5):
     n = float(input(f"Enter Number {i+1} : "))
     lst.append(n)
     sum += n 
+# sum
 print(sum)
+
+# smallest and largest numbers 
