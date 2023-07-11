@@ -9,12 +9,49 @@
 # 7) Delete the list
 
 lst = list()
-sum = float(0)
 for i in range(5):
-    n = float(input(f"Enter Number {i+1} : "))
-    lst.append(n)
-    sum += n 
-# sum
-print(sum)
+    lst.append(float(input(f"Enter Number {i+1} : "))) 
 
-# smallest and largest numbers 
+# sum
+
+print()
+print("Sum of list numbers : ",sum(lst))
+
+# smallest number 
+
+print()
+print("Minimum among list numbers : ",min(lst))
+
+# largest number 
+
+print()
+print("Maximum among list numbers : ",max(lst))
+
+# ascending order 
+
+print()
+lst.sort()
+print("List in ascending order : ",lst)
+
+# desending order 
+
+print()
+lst.reverse()
+
+# or 
+
+lst.sort(reverse=True)
+print("List in desending order : ",lst)
+
+# convert list in tuples 
+
+print()
+t = tuple()
+t = lst
+print("List in Tuple : ",t)
+
+# delete list 
+
+print()
+del lst
+print("List Deleted")
