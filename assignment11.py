@@ -14,46 +14,25 @@ from webbrowser import *
 
 root = Tk(className= " Ads Survey")
 
-questionLabel = Label(master = root, text= "Where did you see this AD ?", font=("Poppins bold",15))
-questionLabel.grid()
+root.geometry("450x270")
+Label(root).pack()
+nameLabel = Label(root, text="Name:").pack()
+userName = Entry(root).pack()
+contactLabel = Label(root, text="Contact:").pack()
+userContact = Entry(root).pack()
+Label(root).pack()
+questionLabel = Label(master = root, text= "Where did you see this AD ?", font=("Poppins medium",15)).pack()
 userChoice = StringVar(root)
 userChoice.set("Select an Option")
-checkBox = OptionMenu(root,userChoice,"Youtube Ads", "Instagram Ads")
-checkBox.grid()
-submitButton = Button(root,text = "Submit").grid()
-
+checkBox = OptionMenu(root, userChoice, "Youtube Ads", "Instagram Ads").pack()
+Label(root).pack()
+def submitOnClick():
+    if userChoice.get() == "Instagram Ads":
+        open("https://help.instagram.com/537518769659039discord.com/hc/en-us/sections/200613688-FAQ")
+    elif userChoice.get() == "Youtube Ads":
+        open("https://www.youtube.com/intl/en-GB/ads/")
+    root.destroy()
+submitButton = Button(root,text = "Submit",command = submitOnClick).pack()
+Label(root).pack()
 
 root.mainloop()
-# # Function to open the FAQ page based on the selected option
-# def open_faq_page():
-#     selected_option = option.get()
-    
-#     if selected_option == "Instagram Ads":
-#         webbrowser.open("https://www.example.com/faq/instagram")
-#     elif selected_option == "YouTube Ads":
-#         webbrowser.open("https://www.example.com/faq/youtube")
-#     # Add more options and corresponding FAQ page URLs as needed
-
-# # Create the main window
-# window = tk.Tk()
-# window.title("Course Enquiry Form")
-
-# # Create a label and entry field for the user's name
-# name_label = tk.Label(window, text="Name:")
-# name_label.pack()
-# name_entry = tk.Entry(window)
-# name_entry.pack()
-
-# # Create a label and option menu for where the user came to know about the course
-# option_label = tk.Label(window, text="Where did you hear about the course?")
-# option_label.pack()
-# option = tk.StringVar()
-# option_menu = tk.OptionMenu(window, option, "Instagram Ads", "YouTube Ads")
-# option_menu.pack()
-
-# # Create a submit button to navigate to the FAQ page
-# submit_button = tk.Button(window, text="Submit", command=open_faq_page)
-# submit_button.pack()
-
-# # Start the GUI main loop
-# window.mainloop()
