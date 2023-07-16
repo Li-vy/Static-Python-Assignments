@@ -24,7 +24,7 @@ Day 10 assignment uploaded.
 
 Day 11 assignment uploaded.
 
-Day 12 assignment upload pending.
+Day 12 assignment uploaded.
 
 
 jubilant-octo-dollop 

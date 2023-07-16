@@ -1,0 +1,5 @@
+Data stored in following format : Id -> Name -> Salary -> Designation
+id: 1 -> name: Vishhal -> salary: 1000000 -> designation: Founder
+id: 2 -> name: Narkar -> salary: 100000 -> designation: Co-Founder
+id: 3 -> name: sdg -> salary: 3523523 -> designation: lksfdjg
+id: 4 -> name: sdg -> salary: 32523 -> designation: sfdh
